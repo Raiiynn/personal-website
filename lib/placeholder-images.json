@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Abstract code visualization",
+      "imageUrl": "https://images.unsplash.com/photo-1546980129-6d518dbb51b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYzNzYwNTAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code abstract"
+    },
+    {
+      "id": "project-2",
+      "description": "Modern web application dashboard",
+      "imageUrl": "https://images.unsplash.com/photo-1591381287254-b3349c60bf9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYzNzI1ODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web dashboard"
+    },
+    {
+      "id": "project-3",
+      "description": "AI-powered data analysis interface",
+      "imageUrl": "https://images.unsplash.com/photo-1599658880436-c61792e70672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwYW5hbHlzaXN8ZW58MHx8fHwxNzYzNzA1MTk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data analysis"
+    }
+  ]
+}
