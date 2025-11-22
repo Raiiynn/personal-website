@@ -1,11 +1,36 @@
 'use client';
+import React, { useState, useEffect } from 'react';
 import RevealOnScroll from '@/components/reveal-on-scroll';
 import { Database } from 'lucide-react';
 import { skillsData } from '@/app/data';
 
+const SkillItem = ({ skill, idx }: { skill: { name: string; icon: string; color: string; }; idx: number }) => {
+  const [yOffset, setYOffset] = useState(0);
+
+  useEffect(() => {
+    // This code runs only on the client, after the component has mounted.
+    // This prevents hydration mismatch.
+    setYOffset(Math.sin(idx * 0.8) * 40);
+  }, [idx]);
+
+  return (
+    <div 
+      key={idx} 
+      className="flex-shrink-0 mx-6 w-32 h-32 flex flex-col items-center justify-center bg-slate-800/40 backdrop-blur-sm rounded-3xl border border-slate-700/50 shadow-lg transform transition-transform duration-300 hover:scale-110 hover:border-teal-500/50 group-hover:blur-[1px] hover:!blur-0"
+      style={{ transform: `translateY(${yOffset}px)` }}
+    >
+      <div className={`p-3 rounded-2xl mb-2 ${skill.color} bg-opacity-20`}>
+        <img src={skill.icon} alt={skill.name} className="w-10 h-10 object-contain" />
+      </div>
+      <span className="text-sm font-semibold text-slate-300">{skill.name}</span>
+    </div>
+  );
+};
+
+
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-24 bg-slate-900/30 overflow-hidden">
+    <section id="skills" className="py-32">
         <div className="container mx-auto px-6 mb-12">
            <RevealOnScroll>
             <div className="text-center">
@@ -18,28 +43,15 @@ const SkillsSection = () => {
           </RevealOnScroll>
         </div>
 
-        <div className="relative w-full">
+        <div className="relative w-full overflow-x-hidden">
           <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none"></div>
           <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none"></div>
           
-          <div className="flex overflow-hidden group">
+          <div className="flex group py-12">
             <div className="flex animate-marquee hover:pause-animation">
-              {[...skillsData, ...skillsData].map((skill, idx) => {
-                const yOffset = Math.sin(idx * 0.8) * 20; 
-                
-                return (
-                  <div 
-                    key={idx} 
-                    className="flex-shrink-0 mx-6 w-32 h-32 flex flex-col items-center justify-center bg-slate-800/40 backdrop-blur-sm rounded-3xl border border-slate-700/50 shadow-lg transform transition-transform duration-300 hover:scale-110 hover:border-teal-500/50 group-hover:blur-[1px] hover:!blur-0"
-                    style={{ transform: `translateY(${yOffset}px)` }}
-                  >
-                    <div className={`p-3 rounded-2xl mb-2 ${skill.color} bg-opacity-20`}>
-                      <img src={skill.icon} alt={skill.name} className="w-10 h-10 object-contain" />
-                    </div>
-                    <span className="text-sm font-semibold text-slate-300">{skill.name}</span>
-                  </div>
-                );
-              })}
+              {[...skillsData, ...skillsData].map((skill, idx) => (
+                <SkillItem key={idx} skill={skill} idx={idx} />
+              ))}
             </div>
           </div>
         </div>
