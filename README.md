@@ -1,110 +1,124 @@
-🚀 Raiiynnn Portfolio
+# 🚀 Raiiynnn Portfolio
 
 ![Project Banner](./public/portfolio.png)
 
-Sebuah portofolio interaktif yang menggabungkan desain modern, animasi halus, dan performa tinggi untuk menampilkan perjalanan profesional saya sebagai IT Solution Enabler.
+Portfolio ini adalah website portofolio interaktif yang menggabungkan desain modern, animasi halus, serta performa tinggi untuk menampilkan perjalanan profesional saya sebagai seorang **IT Solution Enabler**.
 
-🌟 Preview
+---
 
-Jelajahi portofolio ini secara langsung di: [Portfolio Saya](https://raiiynnn-portfolio.vercel.app/)
+## 🌟 Preview
 
-💻 Tech Stack
+Kunjungi portofolio lengkap saya di:
+➡️ **[https://raiiynnn-portfolio.vercel.app/](https://raiiynnn-portfolio.vercel.app/)**
 
-Framework: [Next.js](https://nextjs.org/)
-Styling: [TailwindCSS](https://tailwindcss.com/)
-Deployment: [Vercel](https://vercel.com/)
-Icons: Custom SVG & Simple Icons
+---
 
+## 💻 Tech Stack
 
-🎯 Fitur Utama
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Styling:** [TailwindCSS](https://tailwindcss.com/)
+* **Deployment:** [Vercel](https://vercel.com/)
+* **Icons:** Custom SVG & [Simple Icons](https://simpleicons.org/)
 
-⚡ Performa Tinggi: Dibangun di atas Next.js App Router untuk rendering yang cepat.
+---
 
-🎨 UI/UX Modern: Desain responsif dengan efek glassmorphism, gradient borders, dan spotlight hover effects.
+## 🎯 Fitur Utama
 
-📱 Fully Responsive: Tampilan yang adaptif sempurna dari mobile hingga desktop.
+Portofolio ini hadir dengan berbagai fitur yang menunjang pengalaman pengguna, di antaranya:
 
-✨ Animasi Interaktif: Menggunakan custom hook RevealOnScroll untuk transisi elemen yang mulus.
+* **⚡ Performa Tinggi** — Menggunakan Next.js App Router untuk rendering cepat dan efisien.
+* **🎨 UI/UX Modern** — Desain responsif dengan efek glassmorphism, gradient borders, dan spotlight hover.
+* **📱 Fully Responsive** — Optimal di semua ukuran layar, dari mobile hingga desktop.
+* **✨ Animasi Interaktif** — Didukung custom hook `RevealOnScroll` untuk transisi elemen yang smooth.
+* **📂 Project Showcase Dinamis** — Menampilkan proyek unggulan beserta teknologi yang digunakan.
+* **💼 Experience Timeline** — Visualisasi perjalanan karier yang jelas dan terstruktur.
 
-📂 Dynamic Project Showcase: Menampilkan proyek unggulan dengan detail teknologi yang digunakan.
+---
 
-💼 Experience Timeline: Visualisasi perjalanan karir yang rapi dan mudah dibaca.
+## 🛠️ Instalasi & Setup
 
-🛠️ Instalasi & Setup
+Ikuti langkah berikut untuk menjalankan proyek ini secara lokal:
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda:
+### 1. Clone Repository
 
-1. Clone Repository
+```sh
+git clone https://github.com/Raiiynn/raiiynnn-portfolio.git
+cd raiiynnn-portfolio
+```
 
-git clone [https://github.com/Raiiynn/nama-repo-anda.git](https://github.com/Raiiynn/nama-repo-anda.git)
-cd nama-repo-anda
+### 2. Install Dependencies
 
-
-2. Install Dependencies
-
+```sh
 npm install
 # atau
 yarn install
+```
 
+### 3. Jalankan Development Server
 
-3. Jalankan Development Server
-
+```sh
 npm run dev
+```
 
+Buka browser dan akses: **[http://localhost:3000](http://localhost:3000)**
 
-Buka http://localhost:3000 di browser Anda untuk melihat hasilnya.
+### 4. Build untuk Production
 
-4. Build untuk Production
-
+```sh
 npm run build
 npm start
+```
 
+---
 
-📁 Struktur Proyek
+## 📁 Struktur Proyek
 
-Berikut adalah gambaran umum struktur direktori proyek ini:
-
+```
 /
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx       # Layout utama & Metadata
-│   │   ├── page.tsx         # Halaman utama (Landing Page)
-│   │   └── data.ts          # Sentralisasi data (Profil, Proyek, Skill)
+│   │   ├── layout.tsx          # Layout utama & metadata
+│   │   ├── page.tsx            # Halaman landing page
+│   │   └── data.ts             # Data profil, skill & project
 │   ├── components/
-│   │   ├── hero-section.tsx       # Bagian Intro & Animasi Teks
-│   │   ├── about-section.tsx      # Profil, Stats, & Experience
-│   │   ├── skills-section.tsx     # Tech Stack Grid
-│   │   ├── projects-section.tsx   # Galeri Proyek
-│   │   ├── contact-section.tsx    # Informasi Kontak
-│   │   ├── navbar.tsx             # Navigasi Responsif
-│   │   ├── reveal-on-scroll.tsx   # Komponen Animasi
+│   │   ├── hero-section.tsx       # Intro & animasi teks
+│   │   ├── about-section.tsx      # Profil & pengalaman
+│   │   ├── skills-section.tsx     # Grid tech stack
+│   │   ├── projects-section.tsx   # Daftar proyek
+│   │   ├── contact-section.tsx    # Kontak & sosmed
+│   │   ├── navbar.tsx             # Navigasi responsif
+│   │   ├── reveal-on-scroll.tsx   # Komponen animasi scroll
 │   │   └── ...
-├── public/                  # Aset statis (Gambar, Logo)
-├── next.config.ts           # Konfigurasi Next.js
-├── tailwind.config.ts       # Konfigurasi Tailwind
+├── public/                        # Asset statis (gambar/logo)
+├── next.config.ts                 # Konfigurasi Next.js
+├── tailwind.config.ts             # Konfigurasi Tailwind
 └── package.json
+```
 
+---
 
-📝 Kustomisasi Konten
+## 📝 Kustomisasi Konten
 
-Seluruh konten teks dan data proyek dikelola secara terpusat agar mudah diubah tanpa menyentuh logika kode.
+Semua data konten dapat disesuaikan dengan mudah:
 
-Data Profil & Proyek: Edit file src/app/data.ts.
+* **Teks dan Proyek:** Edit file `src/app/data.ts`
+* **Gambar:** Tambahkan ke folder `public/` lalu update referensinya sesuai kebutuhan
 
-Gambar: Simpan gambar baru di folder public/ dan perbarui referensinya di data.ts atau komponen terkait.
+---
 
-📫 Kontak
+## 📫 Kontak
 
-Tertarik untuk berkolaborasi atau memiliki pertanyaan? Hubungi saya di:
+Jika ingin berkolaborasi atau sekadar bertanya, silakan hubungi saya:
 
-📧 Email: daffaraihan72@gmail.com
+* 📧 **Email:** [daffaraihan72@gmail.com](mailto:daffaraihan72@gmail.com)
+* 🔗 **LinkedIn:** [Daffa Raihan Ramadhan](https://www.linkedin.com/in/daffaraihanramadhan)
+* 🐙 **GitHub:** [@Raiiynn](https://github.com/Raiiynn)
 
-🔗 LinkedIn: Daffa Raihan Ramadhan
+---
 
-🐙 GitHub: @Raiiynn
+## 📄 Lisensi
 
-📄 Lisensi
+Proyek ini bersifat **open-source** dan dirilis di bawah **MIT License**.
+Silakan gunakan, pelajari, atau modifikasi sesuai kebutuhan.
 
-Proyek ini bersifat open-source dan tersedia di bawah lisensi MIT. Silakan gunakan, modifikasi, dan pelajari kodenya!
-
-Dibuat dengan ❤️ oleh Daffa Raihan Ramadhan
+---
