@@ -52,21 +52,21 @@ export const skillsData: { name: string; icon: string; color: string; }[] = [
 
 export const projects: Project[] = [
   {
-    title: "Project Alpha",
-    description: "A full-stack web application built with Next.js and Firebase for real-time data synchronization.",
-    tags: ["Next.js", "React", "Firebase", "Tailwind CSS"],
-    imageUrl: "https://picsum.photos/seed/101/600/400",
+    title: "Audio Feature-Based Music Analysis Web App",
+    description: "A full-stack web application built with Python and Streamlit for real-time data synchronization.",
+    tags: ["Python", "Streamlit", "Pandas"],
+    imageUrl: "https://drive.google.com/uc?export=view&id=1zw2ImKP-h6cZ2ps8NhYLt43Nz8k_cTHu",
     imageHint: "code abstract",
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Raiiynn/musicfsd",
   },
   {
-    title: "Project Beta",
+    title: "GameBoy Retro Web App",
     description: "A Python-based data analysis tool that visualizes complex datasets using modern libraries.",
-    tags: ["Python", "Pandas", "Matplotlib"],
-    imageUrl: "https://picsum.photos/seed/102/600/400",
+    tags: ["Next Js", "TypeScript", "React"],
+    imageUrl: "https://drive.google.com/uc?export=view&id=1Jcps6mRcxLz6fPWHCUclAz1zF38LfyrK",
     imageHint: "web dashboard",
     githubUrl: "#",
+    liveUrl: "https://semangat-ujian.vercel.app/",
   },
   {
     title: "Project Gamma",
