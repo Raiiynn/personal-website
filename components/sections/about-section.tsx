@@ -106,7 +106,7 @@ const AboutSection = () => {
 
                                 <div className="flex flex-wrap gap-4">
                                     <a href="#contact" className="px-8 py-4 rounded-full bg-teal-500 text-slate-950 font-bold hover:bg-teal-400 transition-all transform hover:-translate-y-1 flex items-center gap-2">
-                                        Hubungi Saya <Mail size={18} />
+                                        Say Hi! <Mail size={18} />
                                     </a>
                                 </div>
                             </div>
