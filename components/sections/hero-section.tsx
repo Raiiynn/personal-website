@@ -72,7 +72,7 @@ const HeroSection = () => {
 
                 <RevealOnScroll delay={200}>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
-                        <span className="block text-slate-100">Halo, saya</span>
+                        <span className="block text-slate-100">Hi, I'm</span>
                         <span className="bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                             {personalData.name}
                         </span>
