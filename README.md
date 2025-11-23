@@ -6,7 +6,7 @@ Sebuah portofolio interaktif yang menggabungkan desain modern, animasi halus, da
 
 🌟 Preview
 
-Jelajahi portofolio ini secara langsung di: Portfolio Saya(https://raiiynnn-portfolio.vercel.app/)]
+Jelajahi portofolio ini secara langsung di: [Portfolio Saya](https://raiiynnn-portfolio.vercel.app/)
 
 💻 Tech Stack
 
