@@ -97,7 +97,7 @@ const AboutSection = () => {
                                 
                                 <div className="space-y-6 text-slate-300 text-lg leading-relaxed mb-10 border-l-2 border-slate-800 pl-6">
                                     <p>
-                                        I'm a beginner web developer with experience in HTML, CSS, JavaScript, Typecript, and GoLang and expertise in frameworks like React, and Node.js. I'm a quick learner and collaborate closely with job to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+                                        I'm a beginner web developer with experience in HTML, CSS, JavaScript, Typescript, and GoLang and expertise in frameworks like NextJS, React, and Node.js. I'm a quick learner and collaborate closely with job to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
                                     </p>
                                     <p>
                                         Fokus utama saya saat ini adalah membangun solusi <span className="text-teal-400 font-medium">Full-stack</span> yang skalabel dan performan tinggi.
