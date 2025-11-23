@@ -100,7 +100,7 @@ const AboutSection = () => {
                                         I'm a beginner web developer with experience in HTML, CSS, JavaScript, Typescript, and GoLang and expertise in frameworks like NextJS, React, and Node.js. I'm a quick learner and collaborate closely with job to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
                                     </p>
                                     <p>
-                                        Fokus utama saya saat ini adalah membangun solusi <span className="text-teal-400 font-medium">Full-stack</span> yang skalabel dan performan tinggi.
+                                        My main focus right now is building a scalable <span className="text-teal-400 font-medium">Full-stack</span> solutions.
                                     </p>
                                 </div>
 
